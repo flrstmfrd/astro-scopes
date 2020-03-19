@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Astro-scopes</title>
+<link rel="stylesheet" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet">
+    
+    <div class="navigation"> 
+        <div class= "row1">
+        <nav>
+            <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/index.html" class="cool-link">Horoscopes</a> |
+            <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/tarot.html" class="cool-link">Tarot</a> |
+            <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/games.html" class="cool-link">Games</a> |
+            <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/Contact.html" class="cool-link">Contact Us</a>
+        </nav> 
+        </div> 
+        <div class="logo">
+        <a href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/index.html"><img src="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/Logo/877226-200.png" 
+        alt="Astro-scopes" height="68" width="68"></a>
+        </div>
+        <div>
+            <nav>
+            <a href="https://www.facebook.com" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/facebook.png" 
+                alt="facebook" height="34" width="34" hspace="5"></a> 
+            <a href="https://www.instagram.com/" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/instagram.png" 
+                alt="instagram" height="34" width="34" hspace="5"></a> 
+            <a href="https://twitter.com/?lang=en-gb" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/twitter.png" 
+                alt="twitter" height="34" width="34" hspace="5"></a> 
+            <a href="https://www.linkedin.com/home/?originalSubdomain=uk" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/linkedin.png"
+                alt="LinkedIn" height="34" width="34" hspace="5"></a> 
+            </nav>
+        </div>
+    </div>
+
+
+    <div class="grid grid-right-sidebar game-container tarot primis-rr">
+        <main role="main">
+        <h1>Daily Tarot Reading</h1>
+        <p>Discover our free daily tarot card reading, and take a glimpse into the future. The perfect way to start your day.</p>
+        <form name="MainForm" method="post" action="" onsubmit="return SubmitTarotCards(false);" class="tarot-deck yellow-bg text-center">
+        <input type="hidden" name="CardNumber_1_numericalint" value="16">
+        <input type="hidden" name="CardNumber_2_numericalint" value="9">
+        <input type="hidden" name="CardNumber_3_numericalint" value="7">
+        <h2>Enter your first name:</h2>
+        <input type="text" class="input-large" name="FirstName" size="30" value="">
+        
+        <div class="flex-center-inline-center-cards">
+        <img id="CardImage_1" onclick="javascript:setImage(this, 16);" src="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Icons/91dz8frwHlL.jpg" alt="Reveal card 1" height="200" width="100">
+        <img id="CardImage_2" onclick="javascript:setImage(this, 9);" src="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Icons/91dz8frwHlL.jpg" alt="Reveal card 2" height="200" width="100">
+        <img id="CardImage_3" onclick="javascript:setImage(this, 7);" src="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Icons/91dz8frwHlL.jpg" alt="Reveal card 3" height="200" width="100">
+        </div>
+        <div class="submit-button">
+        <a href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/Tarotread.html" target="blank"><input type="button" class="btn-skin btn-purple" value="Get your Free Daily Tarot Card Reading"></a>
+        </div>
+        </form>
+        </main>
+    </div>

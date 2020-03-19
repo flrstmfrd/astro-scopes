@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/main.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <link href="https://fonts.googleapis.com/css?family=Caladea&display=swap" rel="stylesheet">
+    
+    <div class="navigation"> 
+        <div class= "row1">
+            <nav>
+                <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/index.html" class="cool-link">Horoscopes</a> |
+                <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/tarot.html" class="cool-link">Tarot</a> |
+                <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/games.html" class="cool-link">Games</a> |
+                <a  class="nav-tabs" href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/Contact.html" class="cool-link">Contact Us</a>
+            </nav> 
+        </div> 
+        <div class="logo">
+        <a href="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/index.html"><img src="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/Logo/877226-200.png" 
+        alt="Astro-scopes" height="68" width="68"></a>
+        </div>
+        <div>
+            <nav>
+            <a href="https://www.facebook.com" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/facebook.png" 
+                alt="facebook" height="34" width="34" hspace="5"></a> 
+            <a href="https://www.instagram.com/" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/instagram.png" 
+                alt="instagram" height="34" width="34" hspace="5"></a> 
+            <a href="https://twitter.com/?lang=en-gb" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/twitter.png" 
+                alt="twitter" height="34" width="34" hspace="5"></a> 
+            <a href="https://www.linkedin.com/home/?originalSubdomain=uk" target="_blank"><img src="/Users/fleurstamford/Desktop/Code First/Horoscope website/Workspace/linkedin.png"
+                alt="LinkedIn" height="34" width="34" hspace="5"></a> 
+            </nav>
+        </div>
+    </div>
+
+    <section class="contact">
+        <div class="grid max-width-25">
+
+        <h1>Talk to Us</h1>
+        <p>We want to hear your thoughts. Wherever you are in the universe, we will listen.</p>
+        <form name="MainForm" action="/Users/fleurstamford/OneDrive/Horoscope website/Horoscope website /Workspace/thankyou.html" method="post">
+<div class="column">
+        <input type="text" name="Subject" value="" class="input-large" placeholder="Subject (optional)">
+
+        <input type="text" name="FirstName" value="" class="input-large" placeholder="Name">
+
+        <input type="email" name="EMail" value="" class="input-large" placeholder="Email">
+
+        <input type="email" name="EMailConfirmation" value="" class="input-large" placeholder="Email confirmation">
+
+        <textarea placeholder="Type your message here..." rows="1" maxchars="255" name="Problem" id="Problem" value="" wrap="HARD" oninput="if (this.value.length >= parseInt(this.attributes['MaxChars'].value)) this.value = this.value.slice(0, 255); document.getElementById('problem_charsCount').innerHTML = (parseInt(this.attributes['MaxChars'].value)-parseInt(this.value.length))+' characters left.';"></textarea>
+
+        <label id="problem_charsCount" for="Problem">255 characters left</label>
+</div>
+<div class="buttonp">
+        <button class="btn-skin btn-purple" value="submit request" onclick="javascript:FormValidationLocal();return false;">Send message</button>
+</div>   
+        </form>
+        </div>
+    </section>
