@@ -92,3 +92,100 @@ nav > .nav-tabs {
     text-decoration: none;
 }
 
+.contact {
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+    color: pink;
+    ;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+    margin: 8px 0;    
+}
+
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    background-color: pink;
+}
+
+.btn-purple {
+    background: #a541a8;
+    color: #fafafa;
+    text-transform: capitalize;
+}
+
+.column {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 70%;
+}
+
+.container2 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 70%;
+}
+
+p {
+    color: gray;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: pink;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    color: pink;
+    margin: auto;
+}
+
+h5 {
+    color: rgb(179, 100, 179);
+    margin: auto;
+}
+
+.ariesimg {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    margin-top: 15px;
+}
+
+.h2 {
+    margin-bottom: 5px;
+}
+
+.flex-center-inline-center-cards {
+    margin-top: 15px;
+}
+
+.h1 {
+    margin: auto;
+}
+
+.main {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
